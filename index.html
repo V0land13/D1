@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homework. Modul D1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Подключаю CSS BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Подключаю свои CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container contentWrapper">
+        <!-- HEADER -->
+        <header class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h1 class="hederH">HomeWork</h1>
+                    <h2 class="headerSlogan">D1</h2>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="menubutton"><a href="index.html">HOME</a></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- MAIN -->
+        <main>
+			<div class="row">
+				<div class="col-8" style="text-align: left;">
+					<h2>HOWTO по заданию</h2>
+					<p>Выполнил 2 варианта задания v1 и v2.</p>
+					<li> В версии v1 программа запросит ваши Trello API key & Trello API token, а также КОРОТКИЙ ID вашей доски, прошу обратить внимание что именно короткий, длинный программа получит сама
+					<li>В Версии v2 вам необходимо, перед запуском программы, вставить ваши Trello API key & Trello API token & КОРОТКИЙ ID вашей доски</li>
+					<br>
+					<p style="color: white">Получить короткий ID вы можете, например, из адреса странички необходимой доски.</li>
+					<q>https://trello.com/b/<span style="color: red">ТУТ_КОРОТКИЙ_ID</span></q></p>
+					<br>
+					<h6>Варианты запуска программы:</h6>
+					<li>без параметров - программа выводит на экран колонки и задачи в них</li>
+					<li>с параметром "create имя колонка" - создаст задачу _имя_ в _колонка_</li>
+					<li>с параметром "move name имя колонка" - переместит задачу _имя_ в _колонка_, если задач несколько, предлжит выбор</li>
+					<li>с параметром "listadd колонка" - создаст колонку _колонка_</li>
+				</div>
+				<div class="col-4">
+					<li><a href="trello_v1.py">Скачать версию v1</a></li>
+					<li><a href="trello_v2.py">Скачать версию v2</a></li>
+				</div>
+			</div>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div>
+                <p>Контакты: Aleks в Slack @v0land</p>
+            </div>
+            
+        </footer>
+    </div>
+    <!-- Подключаю JS BootStrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Подключаю свои JS -->
+    <script type="text/javascript" src="script-1.js"></script>
+
+</body>
+</html>
